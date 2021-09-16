@@ -1,0 +1,23 @@
+//////////////////////////////////////////////////////////////////////
+//
+// Accept  numbers from user and Display Digits in the Number
+//
+//////////////////////////////////////////////////////////////////////
+
+
+
+#include"Header.h"
+int main()
+{
+  int iNo=0;
+ 
+ printf("Enter number\n");
+ scanf("%d",&iNo);
+ 
+ 
+
+ Display(iNo);
+ 
+
+ return 0;
+}
