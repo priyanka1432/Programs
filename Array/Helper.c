@@ -91,3 +91,51 @@ BOOL Check(int *Arr,int iSize)
 
 
 
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : Frequency
+// Input :         Integer
+// Output:         Integer
+// Description :   It is use to return the difference between frequency of  even number and odd numbers. 
+// Author :        Priyanka Sapakal
+// Date:           24/09/2021
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+
+int Frequency(int *Arr,int iSize)
+{
+     
+     int iEven=0,iOdd=0,iDiff=0;
+     for(int iCnt=0;iCnt<iSize;iCnt++)
+     {
+        if((*Arr)%2==0)
+        {
+           iEven++;
+         }
+         else
+	 {
+	   iOdd++;
+	 }
+        Arr++;
+      }
+      if(iEven>iOdd)
+      {
+          iDiff=iEven-iOdd;
+      }
+      else
+      {
+          iDiff=iOdd-iEven;
+      }
+     return iDiff;
+      
+}
+
+
+
+
