@@ -112,3 +112,37 @@ void Pattern4(int iNo)
 }
 
 
+//////////////////////////////////////////////////////////////////////////
+//
+// Function name : Pattern5
+// Input :         Integer
+// Description :   It is use to Display Pattern.
+// Author :        Priyanka Sapakal
+// Date:           20/09/2021
+//
+//////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+
+void Pattern5(int iNo)
+{
+    register int iCnt =0;
+  
+
+     for(iCnt=1;iCnt<=iNo;iCnt++)
+     {
+
+            if(iCnt%2==0)
+             {
+               printf("#\t");
+             }
+             else
+             {
+               printf("*\t");
+             }
+      }   
+}
+
+
+
