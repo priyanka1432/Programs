@@ -10,3 +10,4 @@ BOOL Check(int*,int);
 int AdditionArray(int*,int);
 int AddArray(int[]);
 int Frequency(int*,int);
+int Difference(int*,int);

@@ -138,4 +138,42 @@ int Frequency(int *Arr,int iSize)
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : Difference
+// Input :         Integer
+// Output:         Integer
+// Description :   It is use to perform the difference between even and add elements  of array.
+// Author :        Priyanka Sapakal
+// Date:           24/09/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+
+int Difference(int *Arr,int iSize)
+{
+     
+     int iEven=0,iOdd=0,iDiff=0;
+     for(int iCnt=0;iCnt<iSize;iCnt++)
+     {
+        if(*(Arr)%2==0)
+        {
+           iEven=iEven+*(Arr);
+         }
+         else
+	 {
+           iOdd=iOdd+*(Arr);
+	 }
+        Arr++;
+      }
+      iDiff=iEven-iOdd;
+     
+   return iDiff;
+}
+
+
+
+
 
