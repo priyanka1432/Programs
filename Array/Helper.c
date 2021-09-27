@@ -175,5 +175,66 @@ int Difference(int *Arr,int iSize)
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : Display
+// Input :         Integer
+// Output:         Integer
+// Description :   It is use to Display the elements which are divisible by 5.
+// Author :        Priyanka Sapakal
+// Date:           24/09/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+
+void Display(int *Arr,int iSize)
+{
+     
+     
+     for(int iCnt=0;iCnt<iSize;iCnt++)
+     {
+        if(*(Arr)%5==0)
+        {
+           printf("%d\n",*Arr);
+         }
+        Arr++;
+      }
+      
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : Divisible
+// Input :         Integer
+// Output:         Integer
+// Description :   It is use to Display the elements which are divisible by 3 and 5.
+// Author :        Priyanka Sapakal
+// Date:           24/09/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+
+void Divisible(int *Arr,int iSize)
+{
+     
+     
+     for(int iCnt=0;iCnt<iSize;iCnt++)
+     {
+        if((*Arr%5==0)&&(*Arr%3==0))
+        {
+           printf("%d\n",*Arr);
+         }
+        Arr++;
+      }
+      
+}
+
+
+
 
 
