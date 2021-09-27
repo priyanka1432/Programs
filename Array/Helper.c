@@ -330,8 +330,30 @@ void Multiple(int *Arr,int iSize)
       
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : Multiple
+// Input :         Integer
+// Output:         Integer
+// Description :   It is use to Display the elements which are divisible by 5.
+// Author :        Priyanka Sapakal
+// Date:           24/09/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
 
-
+#include"Header.h"
+float Average(int *Arr,int iSize )
+{
+   int iSum=0;
+   float fAvg=0.0;
+   for(int i=0;i<iSize;i++)
+   {
+      iSum=iSum+*(Arr);
+      (Arr)++;
+   }
+   fAvg=(float)iSum/iSize;
+   return fAvg;
+}
 
 
 
