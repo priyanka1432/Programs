@@ -268,6 +268,70 @@ void EvenDivisible(int *Arr,int iSize)
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : CountEven
+// Input :         Integer
+// Output:         Integer
+// Description :   It is use to return the frequency of the Even elements.
+// Author :        Priyanka Sapakal
+// Date:           24/09/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+
+int CountEven(int *Arr,int iSize)
+{
+     
+     int i=0;
+     for(int iCnt=0;iCnt<iSize;iCnt++)
+     {
+        if((*Arr)%2==0)
+        {
+           i++;
+         }
+        Arr++;
+      }
+     return i;
+      
+}
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : Multiple
+// Input :         Integer
+// Output:         Integer
+// Description :   It is use to Display the elements which are divisible by 5.
+// Author :        Priyanka Sapakal
+// Date:           24/09/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+
+void Multiple(int *Arr,int iSize)
+{
+     
+     
+     for(int iCnt=0;iCnt<iSize;iCnt++)
+     {
+        if((*Arr)%11==0)
+        {
+           printf("%d\n",*Arr);
+         }
+        Arr++;
+      }
+      
+}
+
+
+
 
 
 

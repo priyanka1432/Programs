@@ -14,3 +14,5 @@ int Difference(int*,int);
 void Display(int*,int);
 void Divisible(int *Arr,int iSize);
 void EvenDivisible(int *Arr,int iSize);
+int CountEven(int*,int);
+void Multiple(int*,int);
