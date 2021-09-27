@@ -51,5 +51,43 @@ int AddArray(int *Arr,int iSize)
 
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : Check
+// Input :         Integer
+// Output:         Integer
+// Description :   It is use to checkArray contains 11 or not. 
+// Author :        Priyanka Sapakal
+// Date:           24/09/2021
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+
+BOOL Check(int *Arr,int iSize)
+{
+     
+     int iFlag=0;
+     for(int iCnt=0;iCnt<iSize;iCnt++)
+     {
+        if((*Arr)==11)
+        {
+           iFlag=1;
+         }
+        Arr++;
+      }
+      
+     if(iFlag==1)
+     {
+       return TRUE;
+      }
+      else
+      {
+       return FALSE;
+      }
+      
+}
+
 
 
