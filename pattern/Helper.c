@@ -146,3 +146,32 @@ void Pattern5(int iNo)
 
 
 
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+// Function name : Pattern6
+// Input :         Integer
+// Description :   It is use to Display Pattern.
+// Author :        Priyanka Sapakal
+// Date:           20/09/2021
+//
+//////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+
+void Pattern6(int iNo)
+{
+    register int iCnt =0;
+     iNo=iNo+64;
+
+     for(iCnt=65;iCnt<=iNo;iCnt++)
+     {
+          printf("%c\t",iCnt);
+          
+      }   
+}
+
+
+
