@@ -12,3 +12,5 @@ int AddArray(int[]);
 int Frequency(int*,int);
 int Difference(int*,int);
 void Display(int*,int);
+void Divisible(int *Arr,int iSize);
+void EvenDivisible(int *Arr,int iSize);

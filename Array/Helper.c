@@ -35,7 +35,7 @@ int AddArray(int Arr[])
 
 #include"Header.h"
 
-int AddArray(int *Arr,int iSize)
+int AdditionArray(int *Arr,int iSize)
 {
      
      int iSum=0;
@@ -233,6 +233,39 @@ void Divisible(int *Arr,int iSize)
       }
       
 }
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : EvenDivisible
+// Input :         Integer
+// Output:         Integer
+// Description :   It is use to Display the Even elements which are divisible by 5.
+// Author :        Priyanka Sapakal
+// Date:           24/09/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+
+void EvenDivisible(int *Arr,int iSize)
+{
+     
+     
+     for(int iCnt=0;iCnt<iSize;iCnt++)
+     {
+        if((*(Arr)%5==0)&&(*Arr%2==0))
+        {
+           printf("%d\n",*Arr);
+         }
+        Arr++;
+      }
+      
+}
+
 
 
 
