@@ -31,3 +31,4 @@ int  Smallest (int *Arr,int iSize);
 int  Diff(int *Arr,int iSize);
 void Digit3(int *Arr,int iSize);
 void AddDigit(int *Arr,int iSize);
+int LastOcc1(int *Arr,int iSize,int iNo );

@@ -546,7 +546,7 @@ int FirstOcc(int *Arr,int iSize,int iNo )
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 //
-// Function name : FirstOcc
+// Function name : LastOcc
 // Input :         Integer
 // Output:         Integer
 // Description :   It is use to return index of first occurrence of that NO.
@@ -849,6 +849,35 @@ void AddDigit(int *Arr,int iSize)
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : LastOcc
+// Input :         Integer
+// Output:         Integer
+// Description :   It is use to return index of first occurrence of that NO.
+// Author :        Priyanka Sapakal
+// Date:           28/09/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+int LastOcc1(int *Arr,int iSize,int iNo )
+{
+   int iIndex=-1;
+   for(int i=0;i<iSize;i++)
+   {
+      if((*(Arr)==iNo)
+      {
+        iIndex=i;
+        
+      }
+      Arr++;
+        
+   }
+
+   
+   return iIndex;
+}
 
 
 
