@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Accept char from user convert capital to small and small to capital.
+//                  
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include"Header.h"
+int main()
+{
+    char Arr='\0';
+    char cRet='\0';
+
+    printf("Enter the character\n");
+    scanf("%c",&Arr);
+    
+    cRet=CharToggle(Arr); 
+    printf("Toggle character is:%c",cRet);
+    return 0;
+
+}
