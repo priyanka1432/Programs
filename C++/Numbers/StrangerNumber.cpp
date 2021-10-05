@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  A Strange number is an integer number N which has factors that are prime numbers.The square root of the number N should be less than the       // greatest prime factor of 'N'.The task is here is to find out if the given number 'N' is "strange" or "Not strange".
+//  A Strange number is an integer number N which has factors that are prime numbers.The square root of the number N should be less than the  greatest prime factor of 'N'.The task is here is to find out if the given number 'N' is "strange" or "Not strange".
 //                  
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
