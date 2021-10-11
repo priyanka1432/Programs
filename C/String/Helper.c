@@ -434,3 +434,110 @@ UINT CountCSpace(char *str)
     }
     return iCnt;
 }
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : Count
+// Input :         String
+// Output:         Integer
+// Description :   It is use to return count of Vowels.
+// Author :        Priyanka Sapakal
+// Date:           11/10/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+UINT Count(char *str)
+{
+    int iCnt=0;
+    if(str==NULL)
+    {
+        return -1;
+    }
+    while(*str!='\0')
+    {
+        if((*str=='a')||(*str=='e')||(*str=='i')||(*str=='o')||(*str=='u'))
+        {
+            iCnt++;
+        }
+        str++;
+    }
+    return iCnt;
+}
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : CaseCount
+// Input :         String
+// Output:         Integer
+// Description :   It is use to return count of Vowels.
+// Author :        Priyanka Sapakal
+// Date:           11/10/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+UINT CaseCount(char *str)
+{
+    int iCnt=0;
+    if(str==NULL)
+    {
+        return -1;
+    }
+    while(*str!='\0')
+    {
+        if((*str=='a')||(*str=='e')||(*str=='i')||(*str=='o')||(*str=='u')||(*str=='A')||(*str=='E')||(*str=='I')||(*str=='O')||(*str=='U'))
+        {
+            iCnt++;
+        }
+        str++;
+    }
+    return iCnt;
+}
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : CountChar
+// Input :         String,Char
+// Output:         Integer
+// Description :   It is use to return count of Perticular character in the String.
+// Author :        Priyanka Sapakal
+// Date:           11/10/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+UINT CountChar(char *str,char cValue)
+{
+    int iCnt=0;
+    if(str==NULL)
+    {
+        return -1;
+    }
+    while(*str!='\0')
+    {
+        if(*str==cValue)
+        {
+            iCnt++;
+        }
+        str++;
+    }
+    return iCnt;
+}
