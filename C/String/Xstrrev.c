@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Accept string from user and  Reverse the string.
+//                  
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include"Header.h"
+int main()
+{
+    char *Arr=NULL;
+    int  *iRet=0;
+    Arr=(char*)malloc(30*sizeof(char));
+   
+   printf("Enter String\n");
+   scanf("%[^'\n']s",Arr);
+
+   Arr=(char*)realloc(Arr,strlen(Arr));
+
+   Xstrrev(Arr);
+   printf("%s",Arr);
+   
+   return 0;
+}

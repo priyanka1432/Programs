@@ -8,6 +8,7 @@
 
 typedef unsigned int UINT;
 typedef int BOOL;
+
 UINT strlenX(char *str);
 void DisplayTable();
 void DisplayTable1();
@@ -21,3 +22,7 @@ UINT CountCSpace(char *str);
 UINT Count(char *str); 
 UINT CaseCount(char *str);
 UINT CountChar(char *str,char cValue);
+BOOL ChkPalindrome(char *str);
+void Swap(char *ch1,char *ch2);
+void Xstrrev(char *str);
+BOOL chkAlpha(char str);

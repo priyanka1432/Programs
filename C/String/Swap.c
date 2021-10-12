@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Accept characters  from user and swap it
+//                  
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include"Header.h"
+int main()
+{
+    char ch1='\0';
+    char ch2='\0';
+   
+   printf("Enter Character\n");
+   scanf("%c",&ch1);
+
+    printf("Enter Character\n");
+   scanf(" %c",&ch2);
+  Swap(&ch1,&ch2);
+  printf("After swapping characters are %c %c \n",ch1,ch2);
+   return 0;
+}
