@@ -279,5 +279,169 @@ BOOL CheckBits1(UINT iNo1,int iPos)
     
 }
 
+//////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : CheckBits1
+// Input :         Integer,Integer
+// Output:          Boolean
+// Description :   It is use to Check  bit is on or off on the given position.
+// Author :        Priyanka Sapakal
+// Date:           12/10/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+BOOL CheckBits2(UINT iNo1,int iPos)
+{
+    UINT iMask=0x00000001;
+    UINT iResult=0;
+    if((iPos<1)||(iPos>32))
+    {
+        return FALSE;
+    }
+
+    iMask=iMask<<(iPos-1);
+    iResult=iMask&iNo1;
+    if(iResult==iMask)
+    {
+        return TRUE;
+    }
+    else
+    {
+        return FALSE;
+    }   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : OffBit
+// Input :         Integer,Integer
+// Output:         Integer
+// Description :   It is use to on the bit
+// Author :        Priyanka Sapakal
+// Date:           12/10/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+UINT OffBit(UINT iNo1,int iPos)
+{
+    UINT iMask=0x00000001;
+    UINT iResult=0;
+    if((iPos<1)||(iPos>32))
+    {
+        return 0;
+    }
+
+    iMask=iMask<<(iPos-1);
+    iResult=iMask^iNo1;
+    return iResult;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function name : OnBit
+// Input :         Integer,Integer
+// Output:         Integer
+// Description :   It is use to on the bit
+// Author :        Priyanka Sapakal
+// Date:           12/10/2021
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+UINT OnBit(UINT iNo1,int iPos)
+{
+    UINT iMask=0x00000000;
+    UINT iResult=0;
+    if((iPos<1)||(iPos>32))
+    {
+        return 0;
+    }
+
+    iMask=iMask<<(iPos-1);
+    iResult=iMask^iNo1;
+
+    return iResult;   
+}
+*/
+
+
+
+
+
 
 

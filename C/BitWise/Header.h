@@ -13,3 +13,5 @@ BOOL Check21Bit(UINT iNo);
 BOOL CheckBits(UINT iNo);
 BOOL CheckNibble(UINT iNo);
 BOOL CheckBits1(UINT iNo1,int iPos);
+BOOL CheckBits2(UINT iNo1,int iPos);
+UINT OffBit(UINT iNo1,int iPos);
