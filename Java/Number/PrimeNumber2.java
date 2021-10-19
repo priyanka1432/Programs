@@ -34,6 +34,11 @@ class PrimeNumber2
 
 
 
+
+
+
+
+
 class Prime 
 {
     public int iNum;
