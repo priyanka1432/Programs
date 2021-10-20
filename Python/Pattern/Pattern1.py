@@ -15,10 +15,10 @@ Output : A B C D
 def Pattern1(iRows,iCol):
     
     for i in range(1,iRows+1):
-        ch='A'
+        ch=65
         for j in range(1,iCol+1):
-            print(ch,"\t")
-            ch=int(ch)+1
+            print(chr(ch),end=" ")
+            ch=ch+1;
         print(" ")
 
 
