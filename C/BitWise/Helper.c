@@ -410,34 +410,8 @@ UINT OffBit(UINT iNo1,int iPos)
 
 
 
-/*//////////////////////////////////////////////////////////////////////////////////////////////
-//
-// Function name : OnBit
-// Input :         Integer,Integer
-// Output:         Integer
-// Description :   It is use to on the bit
-// Author :        Priyanka Sapakal
-// Date:           12/10/2021
-//
-////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-
-UINT OnBit(UINT iNo1,int iPos)
-{
-    UINT iMask=0x00000000;
-    UINT iResult=0;
-    if((iPos<1)||(iPos>32))
-    {
-        return 0;
-    }
-
-    iMask=iMask<<(iPos-1);
-    iResult=iMask^iNo1;
-
-    return iResult;   
-}
-*/
 
 
 

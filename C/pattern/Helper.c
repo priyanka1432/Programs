@@ -28,7 +28,7 @@ void Display(int iNo)
 }
 //////////////////////////////////////////////////////////////////////////
 //
-// Function name : Display
+// Function name : Pattern2
 // Input :         Integer
 // Description :   It is use to Display Pattern.
 // Author :        Priyanka Sapakal
@@ -57,7 +57,7 @@ void Pattern2(int iNo)
 
 //////////////////////////////////////////////////////////////////////////
 //
-// Function name : Display
+// Function name : Pattern3
 // Input :         Integer
 // Description :   It is use to Display Pattern.
 // Author :        Priyanka Sapakal

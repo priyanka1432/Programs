@@ -1,6 +1,6 @@
 #######################################################################################################################
 #
-# accept number of rows and number of columns  from user and display below pattern. 
+# Accept number of rows and number of columns  from user and display below pattern. 
 #
 #######################################################################################################################
 
